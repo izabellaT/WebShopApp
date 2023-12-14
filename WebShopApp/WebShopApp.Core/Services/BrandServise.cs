@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using WebShopApp.Core.Services;
+using WebShopApp.Core.Contracts;
 using WebShopApp.Infrastructure.Data;
 using WebShopApp.Infrastructure.Data.Domain;
 
-namespace WebShopApp.Core.Contracts
+namespace WebShopApp.Core.Services
 {
     public class BrandServise : IBrandService
     {

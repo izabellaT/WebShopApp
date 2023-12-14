@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using WebShopApp.Infrastructure.Data.Domain;
 
-namespace WebShopApp.Core.Services
+namespace WebShopApp.Core.Contracts
 {
     public interface ICategoryService
     {
