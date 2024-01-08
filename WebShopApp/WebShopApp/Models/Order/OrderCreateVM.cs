@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebShopApp.Models.Category;
 
 namespace WebShopApp.Models.Order
 {
