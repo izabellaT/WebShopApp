@@ -172,6 +172,9 @@ namespace WebShopApp.Controllers
             return this.View(products);
         }
 
+        
+
+
         [AllowAnonymous]
         // GET: ProductController/Details/5
         public ActionResult Details(int id)

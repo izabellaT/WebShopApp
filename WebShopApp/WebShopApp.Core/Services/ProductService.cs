@@ -34,6 +34,8 @@ namespace WebShopApp.Core.Services
             return _context.SaveChanges() != 0;
         }
 
+       
+
         public Product GetProductById(int productId)
         {
             return _context.Products.Find(productId);
